@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizzaria Canastra</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/src/style.css">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+          <img class="logo" src="/src/img/logo.png" alt="logo">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a id="menu-item" class="nav-item nav-link activem" href="#">Home <span class="sr-only">(current)</span></a>
+              <a id="menu-item" class="nav-item nav-link " href="cardapio">Pedido</a>
+              <a id="menu-item" class="nav-item nav-link " href="#">Contato</a>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide pt-5" data-interval="2000" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 imagem-carrolsel-um" src="/src/img/carrossel-img1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block h-50">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrolsel-dois" src="/src/img/carrossel-img2.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block h-50">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrolsel-tres" src="/src/img/carrossel-img3.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block h-50">
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+          
+          <h1 class="fonte-titulo-body text-center pt-5">Sabores para todos os gostos</h1>
+          <p class="text-center text-secondary pb-5">Escolha o sabor que melhor define sua fome :)</p>
+          <p class="text-danger text-center aviso">Pedidos somente para a cidade de Tapira-MG</p>
+    
+       <section id="container">
+              <div class="card">
+                <img class="card-img-top card-posicao-imagem" src="/src/img/produtos/pizza.jfif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Pizzas</h5>
+                  <p class="card-text">Com diversos sabores e tamanhos você escolhe tamanho P, M, G. Cique no botão abaixo e saiba mais</p>
+                  <div class="botoes">
+                    <a href="https://api.whatsapp.com/send?phone=5534999322116&text=teste" class="btn botao-pedido">Ver cardápio</a>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="card">
+                <img class="card-img-top card-posicao-imagem" src="/src/img/produtos/coca-garrafa.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Bebidas</h5>
+                  <p class="card-text">Coca-Cola lata ou garrafa, Fanta laranja, bebidas alcólicas e quais você precisar</p>
+                  <div class="botoes">
+                    <a href="https://api.whatsapp.com/send?phone=5534999322116&text=teste" class="btn botao-pedido">Ver cardápio</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top card-posicao-imagem" src="/src/img/produtos/esfirra.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Esfirras abertas</h5>
+                  <p class="card-text">As melhores esfirras da região com inúmeros sabores a sua disposição. Cique no botão abaixo e saiba mais</p>
+                  <div class="botoes">
+                    <a href="https://api.whatsapp.com/send?phone=5534999322116&text=teste" class="btn botao-pedido">Ver cardápio</a>
+                  </div>
+                </div>
+              </div>
+       </section>
+    </main>
+</body>
+</html>

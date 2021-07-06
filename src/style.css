@@ -1,0 +1,80 @@
+.imagem-carrolsel-um{
+    width: 200px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.imagem-carrolsel-dois{
+    width: 200px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.imagem-carrolsel-tres{
+    width: 200px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+
+.fonte-titulo{
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;   
+    color: maroon;
+}
+
+.fonte-titulo-body{
+    font-family: 'Pacifico', cursive;
+    color: maroon;      
+    
+}
+
+.aviso{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.botao-pedido{
+    background-color: darkorange;
+    border-color: none;
+    color: white;
+    border-radius: 25px; 
+}
+
+.card{
+    display: inline-block;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-bottom: 35px;
+    border-style: 95px solid maroon;
+}
+
+.logo{
+    max-width: 200px;
+    margin-left: 25px;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+#menu-item{
+    color: maroon;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 45px;
+}
+
+.endereco{
+    color: black;       
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.rodape{
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 50px;
+}
